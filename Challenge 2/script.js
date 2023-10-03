@@ -1,6 +1,6 @@
+import { role as nwabisaRole } from "./nwabisa.js";
+import { role as johanesRole } from "./johannes.js";
+import { role as alexRole } from "./alex.js";
 
 
-import { role as alexRole } from "./alex";
-
-
-console.log('Roles:', nwabisa.role, johanes.role, alexRole)
+console.log('Roles:', nwabisaRole, johanesRole, alexRole);
