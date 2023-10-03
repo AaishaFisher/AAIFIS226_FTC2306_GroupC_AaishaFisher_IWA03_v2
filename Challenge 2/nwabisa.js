@@ -4,10 +4,6 @@ const nwabisa = {
     role: 'CEO'
 };
 
-// const firstname = "Nwabisa";
-// const surname = "Gabe";
-// const role = "CEO";
-
 let display= nwabisa.firstName + " " + nwabisa.surName + " (" + nwabisa.role + ")"
 
 console.log(display);
