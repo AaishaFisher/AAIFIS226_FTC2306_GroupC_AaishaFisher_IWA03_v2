@@ -1,4 +1,4 @@
-import {company, year} from './configuration';
+import {company, year} from './configuration.js';
 
 const message = '©' + company + ' (' + year + ')';
 
