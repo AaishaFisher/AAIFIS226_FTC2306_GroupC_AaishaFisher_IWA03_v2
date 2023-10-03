@@ -5,6 +5,4 @@ const nwabisa = {
 };
 
 let display= nwabisa.firstName + " " + nwabisa.surName + " (" + nwabisa.role + ")"
-
-console.log(display);
 document.querySelector('#nwabisa').innerText = display;

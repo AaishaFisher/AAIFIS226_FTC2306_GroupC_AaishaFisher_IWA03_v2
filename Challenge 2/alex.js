@@ -1,15 +1,12 @@
-private firstname = "Alex"
-private surname = "Naidoo"
-public role = "Head of Marketing"
-
-private display= firstname + " " + surname + " (" + role + ")"
-document.querySelector('#alex').innerText = display
-
+ const alex = {
  
+ firstname: "Alex",
+ surname: "Naidoo",
+ role: "Head of Marketing"
 
-private firstname = "Alex"
-private surname = "Naidoo"
-public role = "Head of Marketing"
+};
 
-private display= firstname + " " + surname + " (" + role + ")"
+export const role = alex.role;
+
+let display= alex.firstname + " " + alex.surname + " (" + alex.role + ")";
 document.querySelector('#alex').innerText = display
